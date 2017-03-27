@@ -3,56 +3,129 @@
 
 <head>
 	<meta charset="utf-8">
-
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
-
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="images/favicon.ico">
+
 	<title>Soroco</title>
-	<!--Core CSS -->
 
-    <link href="external/css/material-icons.css" rel="stylesheet" type="text/css"> 
-    <link href="external/css/materialize.min.css" rel="stylesheet" type="text/css">
-    
-    <script type="text/javascript" src="external/js/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="external/js/materialize.min.js"></script>
-    <script type="text/javascript" src="external/js/jquery.materialize-autocomplete.min.js"></script>
-	<script type="text/javascript" src="common/common.js"></script>
-
-    <link href="common/style.css" media="screen" rel="stylesheet" type="text/css">
-    
-	<script>
-		$( document ).ready( function(){
-        	// APP START
-      	});
-	</script>
+	<link href="external/css/material-icons.css" rel="stylesheet" type="text/css">
+	<link href="external/css/materialize.min.css" rel="stylesheet" type="text/css">
+	<link href="common/style.css" media="screen" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-	<section id="container">
-		<!--header start-->
-		<header class="header fixed-top clearfix">
-			
-		</header>
-		<!--header end-->
-        
-        <div class="body">
-			<div id="sidebar" class="nav-collapse">
+	<header></header>
+	<div id="container">
+		<div class="body">
+			<div class="pageContent">
+				<div class="page" id="pgMockup">
+					<div class="container">
+						<div class="row">
+							<div class="col s12 no-padding">
+								<div class="carousel carousel-slider center" data-indicators="true">
+									<div class="carousel-fixed-item center">
+										<i class="material-icons carousel-prev waves-effect white-text">keyboard_arrow_left</i>
+										<a class="btn waves-effect red darken-text-2">BUY $95</a>
+										<a class="btn waves-effect transparent darken-text-2">MORE DETAILS</a>
+										<i class="material-icons carousel-next waves-effect white-text">keyboard_arrow_right</i>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row cards">
+
+						</div>
+						<div class="row">
+							<div class="col s12 no-padding">
+								<img src="images/space-station-2114660_1920.jpg" class="materialboxed" />
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s5 grey">
+								<div class="row">
+									<div class="col s12 blue-text bold no-padding">
+										<span>COMPATIBILITY</span>
+									</div>
+									<div class="col s12 no-padding">
+										<ol>
+											<li>After Effects CS5, CS6, CC</li>
+											<li>Windows 7 SPI & up</li>
+											<li>MAC 10.8.5 & up</li>
+										</ol>
+									</div>
+									<div class="col s12 white-text no-padding">
+										<span>IMAGE FORMATS</span>
+									</div>
+									<div class="col s12 no-padding">
+										<ol>
+											<li>HDR</li>
+											<li>EXR</li>
+											<li>DDS</li>
+											<li>JPEG 8-bit</li>
+											<li>PNG 8-bit 16-bit</li>
+											<li>After Effects layers can be used up to 32 bpc</li>
+										</ol>
+									</div>
+								</div>
+							</div>
+							<div class="col s7 black">
+								<div class="row">
+									<div class="col s12 grey-text bold no-padding">
+										<span>IMAGE FORMATS</span>
+									</div>
+									<div class="col s12 grey-text no-padding">
+										<div class="row">
+											<div class="col s6 no-padding">
+												<ol>
+													<li>3D Rendering in After Effects</li>
+													<li>Create Complex Animations</li>
+													<li>Physically Based Materials</li>
+													<li>3D VFX and Motion Graphics</li>
+												</ol>
+											</div>
+											<div class="col s6 no-padding">
+												<ol>
+													<li>3D Particle Shapes</li>
+													<li>Wireframes</li>
+													<li>Sub Surface Scattering</li>
+													<li>Shadows and AO</li>
+												</ol>
+											</div>
+										</div>
+									</div>
+									<div class="col s12 no-padding white-text bold">
+										<span>RECOMMENDED GPU SPECS</span>
+									</div>
+									<div class="col s12 no-padding">
+										<span>We recommend atleast a GeForce GTX 660 or AMD 7850</span>
+									</div>
+									<div class="col s12 no-padding white-text bold">
+										<span>LICENSE INSTALLATION</span>
+									</div>
+									<div class="col s12 no-padding">
+										<span>Robertson require a hardware license to be generated. We have built this into the plugin so it can be done faster!</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
-            <div class="pageContent">
-                <div class="page" id="">
-                    <div class="container">
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-		<!--main content end-->
-	</section>
+		</div>
+	</div>
 
+	<script type="text/javascript" src="external/js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="external/js/materialize.min.js"></script>
+	<script type="text/javascript" src="common/common.js"></script>
+	<script type="text/javascript" src="scripts/Mockup.js"></script>
 
+	<script>
+		$( document ).ready( function(){
+        	Mockup.init();
+      	});
+	</script>
 
 </body>
 
