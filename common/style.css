@@ -201,7 +201,7 @@ a .material-icons
 
 img {
     width: 100%;
-    height: 400px;
+    height: 500px;
     object-fit: cover;
 }
 
@@ -251,7 +251,54 @@ ol li, span {
     background: rgba(54, 54, 54, 1);
 }
 
+.flex {
+    display: flex;
+}
+
 .card-1 {
     background: rgba(25,25,40,1);
+}
+
+.caption-content {
+    position: absolute;
+    width: 20%;
+}
+
+.caption-content .btn {
+    position: relative;
+    bottom: 300px;
+    left: 24px;
+}
+
+.caption-content-title .title,
+.caption-content-title .btn {
+    position: relative;
+    bottom: 450px;
+    left: 24px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.caption-content-title .btn {
+    bottom: 500px;
+    left: 250px;
+}
+
+.caption-content-heading {
+    position: relative;
+    bottom: 450px;
+    left: 24px;
+    font-size: 24px;
+}
+.caption-content-text {
+    position: relative;
+    bottom: 450px;
+    left: 24px;
+    font-size: 12px;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
 }
 
