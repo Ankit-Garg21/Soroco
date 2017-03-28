@@ -125,9 +125,9 @@ html, body
     background-color: #e0e3e3;
     display: flex;
     flex-direction: row;
-    width:100%;
+    width:70%;
     margin:0px;
-    left:0px;   
+    left:15%;   
     padding:0px;
 }
 
@@ -178,6 +178,20 @@ a .material-icons
     height: 500px;
 }
 
+.carousel-prev {
+    position: absolute;
+    left: 16px;
+    bottom: 150px;
+    font-size: 40px;
+}
+
+.carousel-next {
+    position: absolute;
+    right: 16px;
+    bottom: 150px;
+    font-size: 40px;
+}
+
 .background-image-size {
     background-size: 100% 100%;
     height: 400px;
@@ -212,7 +226,32 @@ img {
     font-size: 24px;
 }
 
+.italic {
+    font-style: italic;
+}
+
 ol {
     list-style-type: disc;
+}
+
+ol li, span {
+    font-size: 16px;
+    font-family: Roboto-Medium;
+}
+
+.padding {
+    padding: 16px;
+}
+
+.margin-top {
+    margin-top: 8px;
+}
+
+.footer {
+    background: rgba(54, 54, 54, 1);
+}
+
+.card-1 {
+    background: rgba(25,25,40,1);
 }
 
